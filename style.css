@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    /* Замените URL ниже на путь к вашей фоновой картинке */
+    background: url('https://www.likeni.ru/upload/medialibrary/e5e/6.gif') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+h2 {
+    margin: 10px 0;
+    color: #555;
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1em;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+li {
+    margin: 5px 0;
+    color: #333;
+}
